@@ -1,0 +1,21 @@
+
+
+python -m venv  # insatll virtual env
+
+code . # open the vscode from command line
+
+
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),'static_cdn','static_root') # Once we run manage.py collectstatic, there will be /
+a new folder created in the same directort as the project, another new folder called static_root created, and new application will be/
+created in here.
+
+
+
+
+
+issue: 
+
+- js for see summary button does not work
+
+
